@@ -1,0 +1,144 @@
+/* Reset dasar untuk menghilangkan margin dan padding bawaan */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya dasar untuk body dengan tema Romantis */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.pexels.com/photos/704748/pexels-photo-704748.jpeg'); /* Ganti dengan URL gambar romansa */
+    background-size: cover; /* Gambar menutupi seluruh halaman */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Membuat gambar tetap di tempat */
+    color: #4a4a4a; /* Warna teks abu-abu lembut */
+    line-height: 1.6;
+}
+
+/* Gaya untuk header */
+header {
+    background-color: rgba(255, 182, 193, 0.8); /* Warna merah muda lembut dengan transparansi */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif; /* Font bergaya klasik dan romantis */
+    color: #ff6f91; /* Warna pink yang hangat */
+}
+
+header p {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 1px; /* Sedikit jarak antar huruf */
+}
+
+/* Gaya untuk bagian utama */
+main {
+    padding: 40px 20px;
+    background-color: rgba(255, 240, 245, 0.9); /* Warna latar belakang lembut dan feminin */
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Bagian Intro */
+#intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff6f91; /* Warna pink lembut */
+}
+
+#intro p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #4a4a4a;
+}
+
+/* Gaya untuk galeri */
+#gallery {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgba(255, 228, 225, 0.9); /* Latar belakang lembut dengan warna merah muda */
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#gallery h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ff6f91;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    justify-items: center;
+}
+
+.gallery-images img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Gaya untuk video */
+#videos {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#videos h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff6f91;
+}
+
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #ff6f91;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
